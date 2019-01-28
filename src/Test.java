@@ -3,13 +3,13 @@ public class Test {
     int giveFourth(Point point) {
 
         if (point.getX() >= 0 && point.getY() >=0)
-            return 5;
+            return 1;
         else if (point.getX() < 0 && point.getY() >=0)
-            return 4;
+            return 2;
         else if (point.getX() <= 0 && point.getY() < 0)
-            return 5;
+            return 3;
         else
-            return 8;
+            return 4;
 
     }
 }
